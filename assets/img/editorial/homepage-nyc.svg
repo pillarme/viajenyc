@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="hSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#02060f"/>
+      <stop offset="50%" stop-color="#07142a"/>
+      <stop offset="100%" stop-color="#101e38"/>
+    </linearGradient>
+    <radialGradient id="hGlow" cx="50%" cy="72%" r="55%">
+      <stop offset="0%" stop-color="#f5c518" stop-opacity="0.14"/>
+      <stop offset="45%" stop-color="#1c3d80" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1f40"/>
+      <stop offset="100%" stop-color="#040c1a"/>
+    </linearGradient>
+    <pattern id="wA" x="0" y="0" width="14" height="16" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="4" height="6" fill="#f5c518" opacity="0.68"/>
+      <rect x="8" y="2" width="4" height="6" fill="#f5c518" opacity="0.22"/>
+      <rect x="2" y="10" width="4" height="6" fill="#f5c518" opacity="0.44"/>
+      <rect x="8" y="10" width="4" height="6" fill="#f5c518" opacity="0.60"/>
+    </pattern>
+    <pattern id="wB" x="5" y="6" width="14" height="16" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="4" height="6" fill="#f5c518" opacity="0.32"/>
+      <rect x="8" y="2" width="4" height="6" fill="#f5c518" opacity="0.64"/>
+      <rect x="2" y="10" width="4" height="6" fill="#f5c518" opacity="0.52"/>
+      <rect x="8" y="10" width="4" height="6" fill="#f5c518" opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="750" fill="url(#hSky)"/>
+  <rect width="1200" height="750" fill="url(#hGlow)"/>
+  <!-- Stars -->
+  <g fill="#fff">
+    <circle cx="60" cy="32" r="1" opacity="0.8"/>
+    <circle cx="145" cy="18" r="1.3" opacity="0.6"/>
+    <circle cx="235" cy="48" r="0.9" opacity="0.7"/>
+    <circle cx="345" cy="22" r="1.1" opacity="0.8"/>
+    <circle cx="455" cy="42" r="0.8" opacity="0.5"/>
+    <circle cx="540" cy="14" r="1.2" opacity="0.7"/>
+    <circle cx="625" cy="36" r="0.9" opacity="0.6"/>
+    <circle cx="715" cy="20" r="1" opacity="0.8"/>
+    <circle cx="805" cy="50" r="1.1" opacity="0.5"/>
+    <circle cx="895" cy="16" r="0.8" opacity="0.9"/>
+    <circle cx="980" cy="40" r="1" opacity="0.6"/>
+    <circle cx="1065" cy="26" r="0.9" opacity="0.7"/>
+    <circle cx="1155" cy="46" r="1.2" opacity="0.5"/>
+    <circle cx="105" cy="72" r="0.7" opacity="0.5"/>
+    <circle cx="295" cy="78" r="0.8" opacity="0.5"/>
+    <circle cx="490" cy="68" r="0.6" opacity="0.6"/>
+    <circle cx="675" cy="82" r="0.8" opacity="0.4"/>
+    <circle cx="860" cy="70" r="0.7" opacity="0.5"/>
+    <circle cx="1040" cy="76" r="0.7" opacity="0.5"/>
+  </g>
+  <!-- Water -->
+  <rect x="0" y="665" width="1200" height="85" fill="url(#hWater)"/>
+  <!-- Light reflections on water -->
+  <rect x="548" y="666" width="7" height="84" fill="#f5c518" opacity="0.1"/>
+  <rect x="553" y="670" width="3" height="80" fill="#f5c518" opacity="0.07"/>
+  <rect x="732" y="666" width="5" height="84" fill="#9bb3e0" opacity="0.09"/>
+  <!-- Buildings — dark silhouettes -->
+  <rect x="-10" y="290" width="70" height="425" fill="#0b1828"/>
+  <rect x="64" y="240" width="52" height="475" fill="#0b1a2c"/>
+  <rect x="105" y="165" width="42" height="550" fill="#0d1f35"/>
+  <rect x="150" y="195" width="40" height="520" fill="#0c1d32"/>
+  <rect x="195" y="280" width="58" height="435" fill="#0a1826"/>
+  <rect x="258" y="310" width="48" height="405" fill="#0a1826"/>
+  <rect x="310" y="265" width="46" height="450" fill="#0b1a28"/>
+  <rect x="360" y="295" width="54" height="420" fill="#0c1c2c"/>
+  <rect x="418" y="245" width="50" height="470" fill="#0a1825"/>
+  <rect x="472" y="258" width="52" height="460" fill="#0b1b2e"/>
+  <!-- Empire State Building -->
+  <rect x="528" y="148" width="64" height="565" fill="#0e2038"/>
+  <rect x="541" y="116" width="38" height="58" fill="#0f2240"/>
+  <rect x="549" y="90" width="22" height="42" fill="#102446"/>
+  <rect x="556" y="72" width="8" height="28" fill="#122848"/>
+  <circle cx="560" cy="70" r="3.5" fill="#f5c518" opacity="0.95"/>
+  <ellipse cx="560" cy="74" rx="10" ry="5" fill="#f5c518" opacity="0.12"/>
+  <rect x="595" y="205" width="50" height="458" fill="#0b1b2c"/>
+  <rect x="648" y="182" width="60" height="482" fill="#0c1c2e"/>
+  <!-- Chrysler area -->
+  <rect x="713" y="202" width="54" height="462" fill="#0d1e30"/>
+  <rect x="723" y="172" width="34" height="40" fill="#0e2035"/>
+  <polygon points="740,146 723,172 757,172" fill="#0f2240"/>
+  <polygon points="740,128 730,146 750,146" fill="#102244"/>
+  <polygon points="740,115 735,128 745,128" fill="#122446"/>
+  <circle cx="740" cy="113" r="2" fill="#9ab2e0" opacity="0.7"/>
+  <rect x="770" y="232" width="60" height="432" fill="#0a1a28"/>
+  <rect x="834" y="212" width="50" height="452" fill="#0b1b2a"/>
+  <rect x="888" y="265" width="54" height="400" fill="#0c1c2c"/>
+  <rect x="948" y="242" width="68" height="422" fill="#0a1927"/>
+  <rect x="1020" y="272" width="50" height="392" fill="#0b1a28"/>
+  <rect x="1074" y="222" width="64" height="442" fill="#0c1c2c"/>
+  <rect x="1142" y="252" width="68" height="412" fill="#0a1826"/>
+  <!-- Window pattern overlays on buildings -->
+  <rect x="-10" y="290" width="70" height="375" fill="url(#wA)" opacity="0.6"/>
+  <rect x="64" y="240" width="52" height="425" fill="url(#wB)" opacity="0.55"/>
+  <rect x="105" y="165" width="42" height="500" fill="url(#wA)" opacity="0.65"/>
+  <rect x="150" y="195" width="40" height="470" fill="url(#wB)" opacity="0.60"/>
+  <rect x="195" y="280" width="58" height="385" fill="url(#wA)" opacity="0.50"/>
+  <rect x="258" y="310" width="48" height="355" fill="url(#wB)" opacity="0.55"/>
+  <rect x="310" y="265" width="46" height="400" fill="url(#wA)" opacity="0.60"/>
+  <rect x="360" y="295" width="54" height="370" fill="url(#wB)" opacity="0.50"/>
+  <rect x="418" y="245" width="50" height="420" fill="url(#wA)" opacity="0.65"/>
+  <rect x="472" y="258" width="52" height="410" fill="url(#wB)" opacity="0.60"/>
+  <rect x="528" y="148" width="64" height="515" fill="url(#wA)" opacity="0.70"/>
+  <rect x="541" y="116" width="38" height="52" fill="url(#wB)" opacity="0.60"/>
+  <rect x="595" y="205" width="50" height="408" fill="url(#wB)" opacity="0.55"/>
+  <rect x="648" y="182" width="60" height="432" fill="url(#wA)" opacity="0.60"/>
+  <rect x="713" y="202" width="54" height="412" fill="url(#wB)" opacity="0.60"/>
+  <rect x="770" y="232" width="60" height="382" fill="url(#wA)" opacity="0.55"/>
+  <rect x="834" y="212" width="50" height="402" fill="url(#wB)" opacity="0.60"/>
+  <rect x="888" y="265" width="54" height="350" fill="url(#wA)" opacity="0.55"/>
+  <rect x="948" y="242" width="68" height="372" fill="url(#wB)" opacity="0.60"/>
+  <rect x="1020" y="272" width="50" height="342" fill="url(#wA)" opacity="0.55"/>
+  <rect x="1074" y="222" width="64" height="392" fill="url(#wB)" opacity="0.65"/>
+  <rect x="1142" y="252" width="68" height="362" fill="url(#wA)" opacity="0.50"/>
+</svg>

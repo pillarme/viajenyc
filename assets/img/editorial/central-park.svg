@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="cpSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5ba3d0"/>
+      <stop offset="55%" stop-color="#87c0e8"/>
+      <stop offset="100%" stop-color="#b8d9f0"/>
+    </linearGradient>
+    <linearGradient id="cpGrass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a8c3a"/>
+      <stop offset="100%" stop-color="#2a6e2a"/>
+    </linearGradient>
+    <linearGradient id="cpLake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5f9ec4"/>
+      <stop offset="100%" stop-color="#4a86ab"/>
+    </linearGradient>
+    <linearGradient id="cpPath" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8b89a"/>
+      <stop offset="100%" stop-color="#b8a888"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="1200" height="750" fill="url(#cpSky)"/>
+  <!-- Clouds -->
+  <ellipse cx="200" cy="80" rx="110" ry="35" fill="white" opacity="0.85"/>
+  <ellipse cx="160" cy="82" rx="70" ry="28" fill="white" opacity="0.85"/>
+  <ellipse cx="250" cy="85" rx="80" ry="26" fill="white" opacity="0.85"/>
+  <ellipse cx="750" cy="60" rx="140" ry="38" fill="white" opacity="0.75"/>
+  <ellipse cx="700" cy="62" rx="90" ry="30" fill="white" opacity="0.75"/>
+  <ellipse cx="820" cy="65" rx="100" ry="28" fill="white" opacity="0.75"/>
+  <ellipse cx="1050" cy="90" rx="100" ry="32" fill="white" opacity="0.65"/>
+  <!-- Manhattan buildings — back row (grey, desaturated, behind park) -->
+  <g fill="#8ca0b0" opacity="0.55">
+    <rect x="0" y="145" width="45" height="210"/>
+    <rect x="48" y="120" width="38" height="235"/>
+    <rect x="90" y="155" width="42" height="200"/>
+    <rect x="135" y="130" width="35" height="225"/>
+    <rect x="174" y="160" width="48" height="195"/>
+    <rect x="226" y="138" width="40" height="217"/>
+    <rect x="270" y="150" width="36" height="205"/>
+    <rect x="855" y="140" width="44" height="215"/>
+    <rect x="903" y="118" width="38" height="237"/>
+    <rect x="945" y="148" width="48" height="207"/>
+    <rect x="997" y="128" width="36" height="227"/>
+    <rect x="1037" y="155" width="44" height="200"/>
+    <rect x="1085" y="132" width="40" height="223"/>
+    <rect x="1129" y="150" width="35" height="205"/>
+    <rect x="1168" y="138" width="42" height="217"/>
+  </g>
+  <!-- Ground / grass base -->
+  <rect x="0" y="355" width="1200" height="395" fill="url(#cpGrass)"/>
+  <!-- Lake / The Reservoir / Pond -->
+  <ellipse cx="560" cy="420" rx="340" ry="100" fill="url(#cpLake)" opacity="0.9"/>
+  <!-- Lake shimmer highlights -->
+  <ellipse cx="480" cy="405" rx="120" ry="28" fill="white" opacity="0.18"/>
+  <ellipse cx="620" cy="430" rx="80" ry="18" fill="white" opacity="0.12"/>
+  <!-- Sky reflection in lake -->
+  <ellipse cx="560" cy="420" rx="330" ry="95" fill="#87c0e8" opacity="0.25"/>
+  <!-- Winding path -->
+  <path d="M80,750 Q200,580 320,500 Q420,440 560,440 Q700,440 820,500 Q950,560 1120,750" fill="none" stroke="url(#cpPath)" stroke-width="22" stroke-linecap="round" opacity="0.85"/>
+  <!-- Inner path -->
+  <path d="M80,750 Q200,580 320,500 Q420,440 560,440 Q700,440 820,500 Q950,560 1120,750" fill="none" stroke="#d4c4a0" stroke-width="10" stroke-linecap="round" opacity="0.5"/>
+  <!-- Trees — back row (smaller, behind lake) -->
+  <g opacity="0.9">
+    <!-- Left forest edge -->
+    <ellipse cx="35" cy="348" rx="50" ry="42" fill="#2a7a2a"/>
+    <ellipse cx="90" cy="340" rx="55" ry="45" fill="#328232"/>
+    <ellipse cx="150" cy="352" rx="48" ry="40" fill="#2e7e2e"/>
+    <ellipse cx="205" cy="344" rx="52" ry="43" fill="#3a8a3a"/>
+    <ellipse cx="262" cy="350" rx="50" ry="41" fill="#2c7c2c"/>
+    <ellipse cx="318" cy="342" rx="55" ry="44" fill="#338333"/>
+    <!-- Right forest edge -->
+    <ellipse cx="882" cy="348" rx="52" ry="42" fill="#328232"/>
+    <ellipse cx="938" cy="340" rx="50" ry="44" fill="#2a7a2a"/>
+    <ellipse cx="992" cy="350" rx="55" ry="41" fill="#3a8a3a"/>
+    <ellipse cx="1050" cy="342" rx="48" ry="43" fill="#2e7e2e"/>
+    <ellipse cx="1105" cy="349" rx="52" ry="40" fill="#338333"/>
+    <ellipse cx="1160" cy="343" rx="50" ry="44" fill="#2c7c2c"/>
+  </g>
+  <!-- Trees — foreground row (bigger, in front of lake) -->
+  <g opacity="0.95">
+    <!-- Left cluster -->
+    <rect x="28" y="440" width="8" height="55" fill="#5a3a1a"/>
+    <ellipse cx="32" cy="435" rx="38" ry="52" fill="#1e6b1e"/>
+    <ellipse cx="32" cy="418" rx="28" ry="38" fill="#258025"/>
+    <rect x="105" y="430" width="8" height="60" fill="#5a3a1a"/>
+    <ellipse cx="109" cy="425" rx="42" ry="56" fill="#237023"/>
+    <ellipse cx="109" cy="408" rx="30" ry="40" fill="#2a7a2a"/>
+    <rect x="195" y="438" width="8" height="52" fill="#5a3a1a"/>
+    <ellipse cx="199" cy="433" rx="38" ry="52" fill="#1e6b1e"/>
+    <ellipse cx="199" cy="416" rx="28" ry="38" fill="#268026"/>
+    <!-- Right cluster -->
+    <rect x="1000" y="438" width="8" height="55" fill="#5a3a1a"/>
+    <ellipse cx="1004" cy="433" rx="38" ry="52" fill="#237023"/>
+    <ellipse cx="1004" cy="416" rx="28" ry="38" fill="#2a7a2a"/>
+    <rect x="1080" y="430" width="8" height="60" fill="#5a3a1a"/>
+    <ellipse cx="1084" cy="425" rx="42" ry="56" fill="#1e6b1e"/>
+    <ellipse cx="1084" cy="408" rx="30" ry="40" fill="#258025"/>
+    <rect x="1162" y="440" width="8" height="52" fill="#5a3a1a"/>
+    <ellipse cx="1166" cy="435" rx="36" ry="50" fill="#237023"/>
+    <ellipse cx="1166" cy="418" rx="26" ry="36" fill="#268026"/>
+  </g>
+  <!-- Foreground grass darker strip -->
+  <rect x="0" y="650" width="1200" height="100" fill="#246024" opacity="0.7"/>
+  <!-- Bench silhouette (decorative detail) -->
+  <rect x="350" y="518" width="60" height="6" fill="#7a5a2a" rx="2"/>
+  <rect x="358" y="524" width="8" height="14" fill="#7a5a2a" rx="1"/>
+  <rect x="394" y="524" width="8" height="14" fill="#7a5a2a" rx="1"/>
+  <!-- Jogger silhouette -->
+  <circle cx="680" cy="498" r="8" fill="#2a2a2a" opacity="0.6"/>
+  <line x1="680" y1="506" x2="676" y2="524" stroke="#2a2a2a" stroke-width="3" opacity="0.6"/>
+  <line x1="680" y1="506" x2="684" y2="524" stroke="#2a2a2a" stroke-width="3" opacity="0.6"/>
+</svg>

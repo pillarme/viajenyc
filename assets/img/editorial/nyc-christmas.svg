@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="xSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#020510"/>
+      <stop offset="55%" stop-color="#08102a"/>
+      <stop offset="100%" stop-color="#121e3a"/>
+    </linearGradient>
+    <radialGradient id="xGlow" cx="50%" cy="55%" r="50%">
+      <stop offset="0%" stop-color="#f5e040" stop-opacity="0.20"/>
+      <stop offset="35%" stop-color="#60c040" stop-opacity="0.12"/>
+      <stop offset="70%" stop-color="#1a4a80" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="xStarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe080" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#f5c518" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f5c518" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="xSnow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dde8f0"/>
+      <stop offset="100%" stop-color="#b8c8d8"/>
+    </linearGradient>
+    <pattern id="xWin" x="0" y="0" width="14" height="16" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="4" height="6" fill="#f5e8c0" opacity="0.55"/>
+      <rect x="8" y="2" width="4" height="6" fill="#f5e8c0" opacity="0.25"/>
+      <rect x="2" y="10" width="4" height="6" fill="#f5e8c0" opacity="0.40"/>
+      <rect x="8" y="10" width="4" height="6" fill="#f5e8c0" opacity="0.55"/>
+    </pattern>
+  </defs>
+  <!-- Night sky -->
+  <rect width="1200" height="750" fill="url(#xSky)"/>
+  <!-- Christmas glow -->
+  <rect width="1200" height="750" fill="url(#xGlow)"/>
+  <!-- Stars -->
+  <g fill="white">
+    <circle cx="55" cy="30" r="1" opacity="0.7"/>
+    <circle cx="130" cy="48" r="1.2" opacity="0.6"/>
+    <circle cx="220" cy="22" r="0.9" opacity="0.8"/>
+    <circle cx="310" cy="55" r="1.1" opacity="0.5"/>
+    <circle cx="820" cy="28" r="1" opacity="0.7"/>
+    <circle cx="920" cy="50" r="1.2" opacity="0.6"/>
+    <circle cx="1000" cy="18" r="0.9" opacity="0.8"/>
+    <circle cx="1090" cy="42" r="1" opacity="0.5"/>
+    <circle cx="1160" cy="28" r="1.1" opacity="0.7"/>
+    <circle cx="80" cy="80" r="0.7" opacity="0.5"/>
+    <circle cx="180" cy="72" r="0.8" opacity="0.4"/>
+    <circle cx="880" cy="75" r="0.7" opacity="0.5"/>
+    <circle cx="1050" cy="68" r="0.8" opacity="0.4"/>
+  </g>
+  <!-- Snowflakes (scattered) -->
+  <g fill="white" opacity="0.55">
+    <circle cx="120" cy="150" r="2.5"/>
+    <circle cx="280" cy="200" r="2"/>
+    <circle cx="450" cy="130" r="1.8"/>
+    <circle cx="750" cy="170" r="2.2"/>
+    <circle cx="900" cy="145" r="2"/>
+    <circle cx="1080" cy="185" r="2.5"/>
+    <circle cx="200" cy="300" r="1.5"/>
+    <circle cx="380" cy="260" r="2"/>
+    <circle cx="820" cy="280" r="1.8"/>
+    <circle cx="1020" cy="310" r="1.5"/>
+  </g>
+  <!-- Rockefeller Center building (center back) -->
+  <rect x="440" y="120" width="320" height="320" fill="#0c1428"/>
+  <!-- Building windows -->
+  <rect x="440" y="120" width="320" height="285" fill="url(#xWin)" opacity="0.8"/>
+  <!-- Building art deco detail -->
+  <rect x="480" y="118" width="240" height="10" fill="#1a2848"/>
+  <rect x="500" y="108" width="200" height="14" fill="#1c2a4a"/>
+  <!-- Side buildings -->
+  <rect x="0" y="185" width="165" height="565" fill="#0b1428"/>
+  <rect x="0" y="185" width="165" height="480" fill="url(#xWin)" opacity="0.6"/>
+  <rect x="170" y="225" width="120" height="525" fill="#0a1226"/>
+  <rect x="170" y="225" width="120" height="440" fill="url(#xWin)" opacity="0.55"/>
+  <rect x="295" y="245" width="100" height="505" fill="#0c1428"/>
+  <rect x="295" y="245" width="100" height="420" fill="url(#xWin)" opacity="0.5"/>
+  <rect x="1035" y="190" width="165" height="560" fill="#0b1428"/>
+  <rect x="1035" y="190" width="165" height="475" fill="url(#xWin)" opacity="0.6"/>
+  <rect x="910" y="228" width="120" height="522" fill="#0a1226"/>
+  <rect x="910" y="228" width="120" height="437" fill="url(#xWin)" opacity="0.55"/>
+  <rect x="805" y="248" width="100" height="502" fill="#0c1428"/>
+  <rect x="805" y="248" width="100" height="417" fill="url(#xWin)" opacity="0.5"/>
+  <!-- Snow ground -->
+  <rect x="0" y="600" width="1200" height="150" fill="url(#xSnow)"/>
+  <!-- Snow mounds -->
+  <ellipse cx="0" cy="610" rx="200" ry="40" fill="#dde8f0"/>
+  <ellipse cx="300" cy="608" rx="280" ry="35" fill="#dde8f0"/>
+  <ellipse cx="900" cy="608" rx="280" ry="35" fill="#dde8f0"/>
+  <ellipse cx="1200" cy="610" rx="200" ry="40" fill="#dde8f0"/>
+  <!-- Ice rink (Rockefeller style) -->
+  <ellipse cx="600" cy="630" rx="160" ry="45" fill="#b8d8f0" opacity="0.85"/>
+  <ellipse cx="600" cy="630" rx="158" ry="43" fill="none" stroke="#9ac8e0" stroke-width="3"/>
+  <!-- Ice rink skaters (tiny silhouettes) -->
+  <g fill="#2a3040" opacity="0.6">
+    <ellipse cx="555" cy="628" rx="7" ry="9"/>
+    <ellipse cx="610" cy="622" rx="7" ry="9"/>
+    <ellipse cx="645" cy="635" rx="7" ry="9"/>
+    <ellipse cx="575" cy="642" rx="7" ry="9"/>
+  </g>
+  <!-- === CHRISTMAS TREE === -->
+  <!-- Tree trunk -->
+  <rect x="575" y="565" width="50" height="45" fill="#5a3a18" rx="4"/>
+  <!-- Tree base stand -->
+  <rect x="555" y="600" width="90" height="14" fill="#4a2a10" rx="3"/>
+  <!-- Tree layer 3 (bottom, widest) -->
+  <polygon points="600,420 350,570 850,570" fill="#0a5a0a"/>
+  <polygon points="600,420 350,570 850,570" fill="#0e6e0e" opacity="0.6"/>
+  <!-- Tree layer 2 (middle) -->
+  <polygon points="600,285 380,455 820,455" fill="#0c6a0c"/>
+  <polygon points="600,285 380,455 820,455" fill="#10780e" opacity="0.6"/>
+  <!-- Tree layer 1 (top, narrowest) -->
+  <polygon points="600,165 430,330 770,330" fill="#0e740e"/>
+  <polygon points="600,165 430,330 770,330" fill="#127a12" opacity="0.6"/>
+  <!-- Tree inner depth (darker center) -->
+  <polygon points="600,420 475,570 725,570" fill="#064a06" opacity="0.5"/>
+  <polygon points="600,285 490,455 710,455" fill="#065a06" opacity="0.45"/>
+  <!-- Christmas lights on tree -->
+  <!-- Layer 3 lights -->
+  <g opacity="0.9">
+    <circle cx="430" cy="530" r="6" fill="#ff3030"/>
+    <circle cx="470" cy="548" r="6" fill="#f5c518"/>
+    <circle cx="510" cy="558" r="6" fill="#3060ff"/>
+    <circle cx="550" cy="564" r="6" fill="#ff3030"/>
+    <circle cx="590" cy="568" r="6" fill="#30dd30"/>
+    <circle cx="630" cy="565" r="6" fill="#f5c518"/>
+    <circle cx="670" cy="558" r="6" fill="#ff3030"/>
+    <circle cx="710" cy="548" r="6" fill="#3060ff"/>
+    <circle cx="750" cy="530" r="6" fill="#30dd30"/>
+    <circle cx="455" cy="510" r="5" fill="#30dd30"/>
+    <circle cx="500" cy="522" r="5" fill="#ff3030"/>
+    <circle cx="545" cy="530" r="5" fill="#f5c518"/>
+    <circle cx="600" cy="534" r="5" fill="#3060ff"/>
+    <circle cx="655" cy="530" r="5" fill="#ff3030"/>
+    <circle cx="700" cy="520" r="5" fill="#30dd30"/>
+    <circle cx="740" cy="510" r="5" fill="#f5c518"/>
+    <!-- Layer 2 lights -->
+    <circle cx="430" cy="418" r="5" fill="#ff3030"/>
+    <circle cx="465" cy="432" r="5" fill="#3060ff"/>
+    <circle cx="500" cy="442" r="5" fill="#f5c518"/>
+    <circle cx="540" cy="448" r="5" fill="#30dd30"/>
+    <circle cx="580" cy="452" r="5" fill="#ff3030"/>
+    <circle cx="620" cy="450" r="5" fill="#f5c518"/>
+    <circle cx="660" cy="444" r="5" fill="#3060ff"/>
+    <circle cx="700" cy="432" r="5" fill="#30dd30"/>
+    <circle cx="735" cy="418" r="5" fill="#ff3030"/>
+    <!-- Layer 1 lights -->
+    <circle cx="470" cy="300" r="5" fill="#f5c518"/>
+    <circle cx="510" cy="315" r="5" fill="#ff3030"/>
+    <circle cx="550" cy="322" r="5" fill="#3060ff"/>
+    <circle cx="590" cy="326" r="5" fill="#30dd30"/>
+    <circle cx="630" cy="324" r="5" fill="#f5c518"/>
+    <circle cx="668" cy="315" r="5" fill="#ff3030"/>
+    <circle cx="705" cy="300" r="5" fill="#3060ff"/>
+  </g>
+  <!-- Light glow halos -->
+  <g opacity="0.35">
+    <circle cx="430" cy="530" r="12" fill="#ff3030"/>
+    <circle cx="590" cy="568" r="12" fill="#30dd30"/>
+    <circle cx="750" cy="530" r="12" fill="#30dd30"/>
+    <circle cx="540" cy="448" r="10" fill="#30dd30"/>
+    <circle cx="580" cy="326" r="10" fill="#f5c518"/>
+  </g>
+  <!-- Star topper -->
+  <polygon points="600,152 612,178 640,178 618,196 626,224 600,206 574,224 582,196 560,178 588,178" fill="#f5c518"/>
+  <polygon points="600,152 612,178 640,178 618,196 626,224 600,206 574,224 582,196 560,178 588,178" fill="#ffe080" opacity="0.5"/>
+  <!-- Star glow -->
+  <ellipse cx="600" cy="188" rx="55" ry="50" fill="url(#xStarGlow)"/>
+  <!-- Skating rink Christmas ornaments string -->
+  <path d="M430,598 Q500,585 600,588 Q700,585 770,598" fill="none" stroke="#f5c518" stroke-width="2" opacity="0.6" stroke-dasharray="8,6"/>
+  <!-- Light reflections on snow -->
+  <ellipse cx="600" cy="605" rx="120" ry="18" fill="#30dd30" opacity="0.12"/>
+  <ellipse cx="600" cy="610" rx="90" ry="12" fill="#f5c518" opacity="0.10"/>
+</svg>

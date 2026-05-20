@@ -1,0 +1,22 @@
+{
+  "name": "ViajeNYC — Guía de viaje a Nueva York",
+  "short_name": "ViajeNYC",
+  "description": "Guía de viaje a Nueva York en español para hispanohablantes.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#0d1b2a",
+  "theme_color": "#0d1b2a",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/assets/img/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

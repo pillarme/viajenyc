@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="slSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3a6e"/>
+      <stop offset="35%" stop-color="#3b6ea8"/>
+      <stop offset="65%" stop-color="#d4884a"/>
+      <stop offset="85%" stop-color="#e8a050"/>
+      <stop offset="100%" stop-color="#c8783a"/>
+    </linearGradient>
+    <linearGradient id="slWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a5a88"/>
+      <stop offset="100%" stop-color="#142840"/>
+    </linearGradient>
+    <radialGradient id="slSunset" cx="72%" cy="62%" r="42%">
+      <stop offset="0%" stop-color="#ffcc66" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#ee8830" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ee8830" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="1200" height="750" fill="url(#slSky)"/>
+  <!-- Sunset glow -->
+  <rect width="1200" height="750" fill="url(#slSunset)"/>
+  <!-- Clouds -->
+  <ellipse cx="180" cy="130" rx="140" ry="40" fill="#fce0b8" opacity="0.5"/>
+  <ellipse cx="140" cy="133" rx="90" ry="30" fill="#fce0b8" opacity="0.5"/>
+  <ellipse cx="240" cy="136" rx="100" ry="28" fill="#fce0b8" opacity="0.5"/>
+  <ellipse cx="920" cy="100" rx="160" ry="45" fill="#fce0b8" opacity="0.45"/>
+  <ellipse cx="870" cy="104" rx="100" ry="34" fill="#fce0b8" opacity="0.45"/>
+  <ellipse cx="1010" cy="108" rx="120" ry="32" fill="#fce0b8" opacity="0.45"/>
+  <ellipse cx="550" cy="155" rx="180" ry="50" fill="#f8d0a0" opacity="0.35"/>
+  <!-- NYC skyline in background (right, far, simplified) -->
+  <g fill="#1a3050" opacity="0.55">
+    <rect x="820" y="260" width="30" height="215"/>
+    <rect x="855" y="240" width="25" height="235"/>
+    <rect x="884" y="265" width="32" height="210"/>
+    <rect x="920" y="248" width="28" height="227"/>
+    <rect x="952" y="270" width="35" height="205"/>
+    <rect x="991" y="255" width="26" height="220"/>
+    <rect x="1021" y="272" width="30" height="203"/>
+    <rect x="1055" y="244" width="24" height="231"/>
+    <rect x="1083" y="262" width="32" height="213"/>
+    <rect x="1119" y="250" width="28" height="225"/>
+    <rect x="1151" y="268" width="55" height="207"/>
+  </g>
+  <!-- Water -->
+  <rect x="0" y="475" width="1200" height="275" fill="url(#slWater)"/>
+  <!-- Water shimmer / sunset reflection -->
+  <ellipse cx="600" cy="490" rx="600" ry="40" fill="#ee8830" opacity="0.15"/>
+  <ellipse cx="900" cy="495" rx="250" ry="22" fill="#ffcc66" opacity="0.12"/>
+  <!-- Water wave lines -->
+  <path d="M0,520 Q150,510 300,520 Q450,530 600,520 Q750,510 900,520 Q1050,530 1200,520" fill="none" stroke="#5a8ab8" stroke-width="2" opacity="0.4"/>
+  <path d="M0,545 Q200,535 400,545 Q600,555 800,545 Q1000,535 1200,545" fill="none" stroke="#5a8ab8" stroke-width="1.5" opacity="0.3"/>
+  <path d="M0,570 Q180,560 360,570 Q540,580 720,570 Q900,560 1080,570 Q1140,575 1200,570" fill="none" stroke="#5a8ab8" stroke-width="1" opacity="0.25"/>
+  <!-- Liberty Island base -->
+  <ellipse cx="420" cy="490" rx="120" ry="25" fill="#3a5a2a"/>
+  <rect x="330" y="475" width="180" height="20" fill="#3a5a2a"/>
+  <!-- Pedestal -->
+  <rect x="370" y="370" width="100" height="110" fill="#7a8a7a"/>
+  <rect x="375" y="368" width="90" height="8" fill="#8a9a8a"/>
+  <!-- Pedestal detail lines -->
+  <rect x="375" y="390" width="90" height="3" fill="#6a7a6a" opacity="0.7"/>
+  <rect x="375" y="410" width="90" height="3" fill="#6a7a6a" opacity="0.7"/>
+  <rect x="375" y="430" width="90" height="3" fill="#6a7a6a" opacity="0.7"/>
+  <rect x="375" y="450" width="90" height="3" fill="#6a7a6a" opacity="0.7"/>
+  <!-- Star fort base -->
+  <rect x="360" y="462" width="120" height="18" fill="#6a7a6a"/>
+  <!-- Statue body -->
+  <!-- Robe/gown -->
+  <path d="M385,368 Q388,290 395,240 Q400,200 420,180 Q440,200 445,240 Q452,290 455,368 Z" fill="#5a8a5a"/>
+  <!-- Upper torso -->
+  <rect x="400" y="200" width="40" height="80" fill="#6a9a6a" rx="8"/>
+  <!-- Head -->
+  <circle cx="420" cy="188" r="22" fill="#6a9a6a"/>
+  <!-- Crown spikes -->
+  <polygon points="420,158 415,172 425,172" fill="#6a9a6a"/>
+  <polygon points="404,165 404,178 411,172" fill="#6a9a6a"/>
+  <polygon points="436,165 436,178 429,172" fill="#6a9a6a"/>
+  <polygon points="396,173 399,184 405,178" fill="#6a9a6a"/>
+  <polygon points="444,173 441,184 435,178" fill="#6a9a6a"/>
+  <!-- Right arm raised with torch -->
+  <line x1="453" y1="225" x2="475" y2="168" stroke="#6a9a6a" stroke-width="14" stroke-linecap="round"/>
+  <!-- Torch -->
+  <rect x="469" y="142" width="12" height="32" fill="#7aaa7a" rx="3"/>
+  <ellipse cx="475" cy="138" rx="9" ry="6" fill="#f5c518" opacity="0.95"/>
+  <ellipse cx="475" cy="134" rx="6" ry="10" fill="#ffdd44" opacity="0.8"/>
+  <!-- Flame glow -->
+  <ellipse cx="475" cy="134" rx="14" ry="16" fill="#ffcc00" opacity="0.2"/>
+  <!-- Left arm down with tablet -->
+  <line x1="387" y1="230" x2="368" y2="270" stroke="#5a8a5a" stroke-width="12" stroke-linecap="round"/>
+  <rect x="352" y="260" width="30" height="20" fill="#5a8a5a" rx="2"/>
+  <!-- Statue reflection on water -->
+  <line x1="420" y1="490" x2="420" y2="560" stroke="#4a6a4a" stroke-width="8" opacity="0.2"/>
+  <ellipse cx="420" cy="555" rx="30" ry="8" fill="#4a6a4a" opacity="0.1"/>
+  <!-- Sunset reflection path -->
+  <path d="M700,490 Q850,480 1000,490 Q1100,496 1200,490" fill="none" stroke="#ffcc66" stroke-width="3" opacity="0.25"/>
+  <path d="M750,505 Q900,495 1050,505 Q1150,511 1200,506" fill="none" stroke="#ffaa44" stroke-width="2" opacity="0.18"/>
+</svg>

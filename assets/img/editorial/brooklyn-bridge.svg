@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bbSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2d5a"/>
+      <stop offset="30%" stop-color="#2e5080"/>
+      <stop offset="60%" stop-color="#d4704a"/>
+      <stop offset="80%" stop-color="#e88840"/>
+      <stop offset="100%" stop-color="#c86030"/>
+    </linearGradient>
+    <linearGradient id="bbWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#243a58"/>
+      <stop offset="100%" stop-color="#0e1c2c"/>
+    </linearGradient>
+    <radialGradient id="bbSun" cx="75%" cy="58%" r="35%">
+      <stop offset="0%" stop-color="#ffdd88" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#ff9944" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ff9944" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Sky gradient -->
+  <rect width="1200" height="750" fill="url(#bbSky)"/>
+  <rect width="1200" height="750" fill="url(#bbSun)"/>
+  <!-- Clouds -->
+  <ellipse cx="200" cy="120" rx="130" ry="36" fill="#f8d0a0" opacity="0.45"/>
+  <ellipse cx="160" cy="124" rx="85" ry="27" fill="#f8d0a0" opacity="0.45"/>
+  <ellipse cx="260" cy="128" rx="95" ry="25" fill="#f8d0a0" opacity="0.45"/>
+  <ellipse cx="620" cy="95" rx="160" ry="44" fill="#f8d0a0" opacity="0.35"/>
+  <!-- Manhattan skyline (left side, background) -->
+  <g fill="#1a2a40" opacity="0.7">
+    <rect x="0" y="175" width="40" height="270"/>
+    <rect x="44" y="155" width="35" height="290"/>
+    <rect x="83" y="165" width="42" height="280"/>
+    <rect x="129" y="142" width="38" height="303"/>
+    <!-- Empire State silhouette -->
+    <rect x="175" y="90" width="48" height="355"/>
+    <rect x="189" y="70" width="20" height="40"/>
+    <rect x="196" y="55" width="6" height="22"/>
+    <rect x="227" y="152" width="42" height="293"/>
+    <rect x="273" y="168" width="36" height="277"/>
+    <rect x="313" y="148" width="44" height="297"/>
+    <rect x="361" y="162" width="38" height="283"/>
+    <rect x="403" y="172" width="45" height="273"/>
+  </g>
+  <!-- East River -->
+  <rect x="0" y="445" width="1200" height="305" fill="url(#bbWater)"/>
+  <!-- Water shimmer -->
+  <path d="M0,470 Q200,462 400,470 Q600,478 800,470 Q1000,462 1200,470" fill="none" stroke="#4a7a9a" stroke-width="2" opacity="0.5"/>
+  <path d="M0,495 Q300,487 600,495 Q900,503 1200,495" fill="none" stroke="#4a7a9a" stroke-width="1.5" opacity="0.4"/>
+  <path d="M0,525 Q250,517 500,525 Q750,533 1000,525 Q1100,520 1200,525" fill="none" stroke="#3a6a8a" stroke-width="1" opacity="0.3"/>
+  <!-- Sunset reflection -->
+  <ellipse cx="900" cy="470" rx="300" ry="35" fill="#e87030" opacity="0.14"/>
+  <path d="M700,460 Q900,450 1100,460" fill="none" stroke="#ffaa44" stroke-width="3" opacity="0.2"/>
+  <!-- Brooklyn (right) ground -->
+  <rect x="750" y="435" width="450" height="12" fill="#3a3028"/>
+  <!-- Bridge road deck -->
+  <rect x="0" y="380" width="1200" height="28" fill="#5a5040" rx="2"/>
+  <rect x="0" y="382" width="1200" height="6" fill="#6a6050" opacity="0.6"/>
+  <!-- Road markings on deck -->
+  <rect x="0" y="386" width="1200" height="3" fill="#888070" opacity="0.5"/>
+  <rect x="0" y="392" width="1200" height="2" fill="#444038" opacity="0.6"/>
+  <!-- Bridge walkway (elevated center) -->
+  <rect x="430" y="358" width="340" height="26" fill="#6a6254" rx="2"/>
+  <rect x="430" y="360" width="340" height="5" fill="#7a7264" opacity="0.6"/>
+  <!-- Walkway railing -->
+  <rect x="430" y="355" width="340" height="5" fill="#4a4438" rx="1"/>
+  <rect x="430" y="375" width="340" height="4" fill="#4a4438" rx="1"/>
+  <!-- Walkway vertical slats -->
+  <g stroke="#4a4438" stroke-width="1.5" opacity="0.7">
+    <line x1="440" y1="355" x2="440" y2="379"/>
+    <line x1="455" y1="355" x2="455" y2="379"/>
+    <line x1="470" y1="355" x2="470" y2="379"/>
+    <line x1="485" y1="355" x2="485" y2="379"/>
+    <line x1="500" y1="355" x2="500" y2="379"/>
+    <line x1="515" y1="355" x2="515" y2="379"/>
+    <line x1="530" y1="355" x2="530" y2="379"/>
+    <line x1="545" y1="355" x2="545" y2="379"/>
+    <line x1="560" y1="355" x2="560" y2="379"/>
+    <line x1="575" y1="355" x2="575" y2="379"/>
+    <line x1="590" y1="355" x2="590" y2="379"/>
+    <line x1="605" y1="355" x2="605" y2="379"/>
+    <line x1="620" y1="355" x2="620" y2="379"/>
+    <line x1="635" y1="355" x2="635" y2="379"/>
+    <line x1="650" y1="355" x2="650" y2="379"/>
+    <line x1="665" y1="355" x2="665" y2="379"/>
+    <line x1="680" y1="355" x2="680" y2="379"/>
+    <line x1="695" y1="355" x2="695" y2="379"/>
+    <line x1="710" y1="355" x2="710" y2="379"/>
+    <line x1="725" y1="355" x2="725" y2="379"/>
+    <line x1="740" y1="355" x2="740" y2="379"/>
+    <line x1="755" y1="355" x2="755" y2="379"/>
+  </g>
+  <!-- Left tower (Gothic arch) -->
+  <rect x="300" y="110" width="100" height="298" fill="#5a5248"/>
+  <!-- Gothic arch on left tower -->
+  <path d="M310,250 Q350,215 390,250" fill="none" stroke="#7a726a" stroke-width="6"/>
+  <path d="M310,250 Q350,215 390,250 L390,290 L310,290 Z" fill="#504840" opacity="0.6"/>
+  <!-- Second arch -->
+  <path d="M315,190 Q350,162 385,190" fill="none" stroke="#7a726a" stroke-width="4"/>
+  <!-- Tower cap -->
+  <rect x="298" y="102" width="104" height="16" fill="#6a6258"/>
+  <rect x="305" y="94" width="90" height="14" fill="#6a6258"/>
+  <!-- Right tower -->
+  <rect x="800" y="110" width="100" height="298" fill="#5a5248"/>
+  <path d="M810,250 Q850,215 890,250" fill="none" stroke="#7a726a" stroke-width="6"/>
+  <path d="M810,250 Q850,215 890,250 L890,290 L810,290 Z" fill="#504840" opacity="0.6"/>
+  <path d="M815,190 Q850,162 885,190" fill="none" stroke="#7a726a" stroke-width="4"/>
+  <rect x="798" y="102" width="104" height="16" fill="#6a6258"/>
+  <rect x="805" y="94" width="90" height="14" fill="#6a6258"/>
+  <!-- Main suspension cables — from tops of towers to ground anchors -->
+  <!-- Left cable from left tower top -->
+  <path d="M350,102 Q150,340 0,408" fill="none" stroke="#4a4238" stroke-width="5" opacity="0.85"/>
+  <path d="M350,102 Q600,250 850,108" fill="none" stroke="#4a4238" stroke-width="6" opacity="0.85"/>
+  <path d="M850,108 Q1050,340 1200,408" fill="none" stroke="#4a4238" stroke-width="5" opacity="0.85"/>
+  <!-- Secondary cable (slightly offset) -->
+  <path d="M340,106 Q138,342 0,415" fill="none" stroke="#3a3228" stroke-width="3" opacity="0.5"/>
+  <path d="M340,106 Q600,255 860,112" fill="none" stroke="#3a3228" stroke-width="4" opacity="0.5"/>
+  <path d="M860,112 Q1062,342 1200,415" fill="none" stroke="#3a3228" stroke-width="3" opacity="0.5"/>
+  <!-- Vertical suspender cables -->
+  <g stroke="#4a4238" stroke-width="1.5" opacity="0.6">
+    <line x1="200" y1="370" x2="212" y2="250"/>
+    <line x1="230" y1="375" x2="244" y2="228"/>
+    <line x1="260" y1="380" x2="276" y2="210"/>
+    <line x1="400" y1="385" x2="408" y2="340"/>
+    <line x1="430" y1="385" x2="436" y2="325"/>
+    <line x1="460" y1="383" x2="464" y2="312"/>
+    <line x1="490" y1="382" x2="492" y2="302"/>
+    <line x1="520" y1="381" x2="520" y2="294"/>
+    <line x1="550" y1="380" x2="548" y2="287"/>
+    <line x1="580" y1="380" x2="576" y2="284"/>
+    <line x1="610" y1="381" x2="606" y2="284"/>
+    <line x1="640" y1="381" x2="636" y2="288"/>
+    <line x1="670" y1="382" x2="666" y2="296"/>
+    <line x1="700" y1="383" x2="696" y2="308"/>
+    <line x1="730" y1="384" x2="726" y2="320"/>
+    <line x1="760" y1="385" x2="758" y2="334"/>
+    <line x1="960" y1="380" x2="956" y2="340"/>
+    <line x1="990" y1="376" x2="984" y2="325"/>
+    <line x1="1020" y1="372" x2="1012" y2="308"/>
+    <line x1="1050" y1="368" x2="1040" y2="292"/>
+    <line x1="1080" y1="364" x2="1068" y2="278"/>
+  </g>
+  <!-- Pedestrians on walkway -->
+  <g fill="#3a3020" opacity="0.75">
+    <circle cx="480" cy="354" r="5"/>
+    <rect x="477" y="359" width="6" height="14" rx="2"/>
+    <circle cx="520" cy="353" r="5"/>
+    <rect x="517" y="358" width="6" height="14" rx="2"/>
+    <circle cx="580" cy="354" r="5"/>
+    <rect x="577" y="359" width="6" height="14" rx="2"/>
+    <circle cx="630" cy="353" r="4.5"/>
+    <rect x="628" y="357" width="6" height="14" rx="2"/>
+    <circle cx="700" cy="354" r="5"/>
+    <rect x="697" y="359" width="6" height="14" rx="2"/>
+  </g>
+</svg>

@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="fdBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a0e08"/>
+      <stop offset="50%" stop-color="#3d1408"/>
+      <stop offset="100%" stop-color="#1e0a04"/>
+    </linearGradient>
+    <radialGradient id="fdGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#f04a10" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#d43a08" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#8a1a00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fdCounter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3828"/>
+      <stop offset="100%" stop-color="#2e2018"/>
+    </linearGradient>
+    <radialGradient id="fdPizzaGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#ff8844" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ff8844" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Restaurant interior background -->
+  <rect width="1200" height="750" fill="url(#fdBg)"/>
+  <rect width="1200" height="750" fill="url(#fdGlow)"/>
+  <!-- Brick wall texture (left) -->
+  <g fill="#3a1808" opacity="0.7">
+    <rect x="0" y="0" width="1200" height="750" fill="#280e06"/>
+    <!-- Brick rows -->
+    <rect x="0" y="30" width="90" height="22" rx="2" fill="#3e1a08"/>
+    <rect x="95" y="30" width="90" height="22" rx="2" fill="#3a1606"/>
+    <rect x="190" y="30" width="90" height="22" rx="2" fill="#401c0a"/>
+    <rect x="285" y="30" width="90" height="22" rx="2" fill="#3c1808"/>
+    <rect x="380" y="30" width="90" height="22" rx="2" fill="#3e1a08"/>
+    <rect x="475" y="30" width="90" height="22" rx="2" fill="#3a1606"/>
+    <rect x="570" y="30" width="90" height="22" rx="2" fill="#401c0a"/>
+    <rect x="665" y="30" width="90" height="22" rx="2" fill="#3c1808"/>
+    <rect x="760" y="30" width="90" height="22" rx="2" fill="#3e1a08"/>
+    <rect x="855" y="30" width="90" height="22" rx="2" fill="#3a1606"/>
+    <rect x="950" y="30" width="90" height="22" rx="2" fill="#401c0a"/>
+    <rect x="1045" y="30" width="90" height="22" rx="2" fill="#3c1808"/>
+    <rect x="1140" y="30" width="60" height="22" rx="2" fill="#3e1a08"/>
+    <!-- Row 2 (offset) -->
+    <rect x="0" y="57" width="45" height="22" rx="2" fill="#3c1808"/>
+    <rect x="50" y="57" width="90" height="22" rx="2" fill="#3e1a08"/>
+    <rect x="145" y="57" width="90" height="22" rx="2" fill="#3a1606"/>
+    <rect x="240" y="57" width="90" height="22" rx="2" fill="#401c0a"/>
+    <rect x="335" y="57" width="90" height="22" rx="2" fill="#3c1808"/>
+    <rect x="430" y="57" width="90" height="22" rx="2" fill="#3e1a08"/>
+    <rect x="525" y="57" width="90" height="22" rx="2" fill="#3a1606"/>
+    <rect x="620" y="57" width="90" height="22" rx="2" fill="#401c0a"/>
+    <rect x="715" y="57" width="90" height="22" rx="2" fill="#3c1808"/>
+    <rect x="810" y="57" width="90" height="22" rx="2" fill="#3e1a08"/>
+    <rect x="905" y="57" width="90" height="22" rx="2" fill="#3a1606"/>
+    <rect x="1000" y="57" width="90" height="22" rx="2" fill="#401c0a"/>
+    <rect x="1095" y="57" width="90" height="22" rx="2" fill="#3c1808"/>
+    <!-- Rows 3-7 similarly -->
+    <rect x="0" y="84" width="90" height="22" rx="2" fill="#3e1a08"/>
+    <rect x="95" y="84" width="90" height="22" rx="2" fill="#3a1606"/>
+    <rect x="190" y="84" width="90" height="22" rx="2" fill="#401c0a"/>
+    <rect x="285" y="84" width="90" height="22" rx="2" fill="#3c1808"/>
+    <rect x="380" y="84" width="90" height="22" rx="2" fill="#3e1a08"/>
+    <rect x="475" y="84" width="90" height="22" rx="2" fill="#3a1606"/>
+    <rect x="570" y="84" width="90" height="22" rx="2" fill="#401c0a"/>
+    <rect x="665" y="84" width="90" height="22" rx="2" fill="#3c1808"/>
+    <rect x="760" y="84" width="90" height="22" rx="2" fill="#3e1a08"/>
+    <rect x="855" y="84" width="90" height="22" rx="2" fill="#3a1606"/>
+    <rect x="950" y="84" width="90" height="22" rx="2" fill="#401c0a"/>
+    <rect x="1045" y="84" width="90" height="22" rx="2" fill="#3c1808"/>
+    <rect x="1140" y="84" width="60" height="22" rx="2" fill="#3e1a08"/>
+  </g>
+  <!-- Pizza parlor sign / neon strip -->
+  <rect x="140" y="110" width="920" height="55" fill="#1a0808" rx="6"/>
+  <rect x="148" y="118" width="904" height="39" fill="#2a0808" rx="5"/>
+  <!-- Neon sign text (represented as colored rectangles) -->
+  <rect x="200" y="126" width="180" height="22" fill="#ee3a1a" rx="4" opacity="0.9"/>
+  <rect x="200" y="126" width="180" height="22" fill="#ff5533" rx="4" opacity="0.6"/>
+  <rect x="420" y="128" width="120" height="18" fill="#f5c518" rx="3" opacity="0.9"/>
+  <rect x="590" y="126" width="160" height="22" fill="#ee3a1a" rx="4" opacity="0.9"/>
+  <rect x="800" y="128" width="200" height="18" fill="white" rx="3" opacity="0.7"/>
+  <!-- Counter surface -->
+  <rect x="0" y="530" width="1200" height="220" fill="url(#fdCounter)"/>
+  <!-- Counter front -->
+  <rect x="0" y="560" width="1200" height="190" fill="#2e2018"/>
+  <!-- Counter top edge -->
+  <rect x="0" y="530" width="1200" height="30" fill="#5a4030"/>
+  <!-- === MAIN PIZZA SLICE === -->
+  <!-- Crust -->
+  <polygon points="600,165 200,530 1000,530" fill="#d4904a"/>
+  <!-- Sauce layer -->
+  <polygon points="600,195 230,515 970,515" fill="#cc3a1a"/>
+  <!-- Cheese layer -->
+  <polygon points="600,215 255,505 945,505" fill="#f0c060"/>
+  <!-- Cheese bubbles -->
+  <circle cx="480" cy="420" r="28" fill="#e8b850"/>
+  <circle cx="600" cy="380" r="32" fill="#f0c460"/>
+  <circle cx="720" cy="420" r="28" fill="#e8b850"/>
+  <circle cx="550" cy="460" r="22" fill="#f0c060"/>
+  <circle cx="650" cy="460" r="22" fill="#e8b850"/>
+  <!-- Pepperoni circles -->
+  <circle cx="500" cy="390" r="35" fill="#8a1a08"/>
+  <circle cx="500" cy="390" r="30" fill="#aa2810"/>
+  <circle cx="700" cy="390" r="35" fill="#8a1a08"/>
+  <circle cx="700" cy="390" r="30" fill="#aa2810"/>
+  <circle cx="600" cy="450" r="35" fill="#8a1a08"/>
+  <circle cx="600" cy="450" r="30" fill="#aa2810"/>
+  <circle cx="440" cy="468" r="28" fill="#8a1a08"/>
+  <circle cx="440" cy="468" r="24" fill="#aa2810"/>
+  <circle cx="760" cy="468" r="28" fill="#8a1a08"/>
+  <circle cx="760" cy="468" r="24" fill="#aa2810"/>
+  <!-- Crust edge detail -->
+  <path d="M200,530 Q600,600 1000,530" fill="#b87838" opacity="0.8" stroke="#8a5a28" stroke-width="3"/>
+  <!-- Pizza glow -->
+  <polygon points="600,165 200,530 1000,530" fill="url(#fdPizzaGlow)" opacity="0.5"/>
+  <!-- Bagel (left foreground) -->
+  <ellipse cx="185" cy="590" rx="110" ry="55" fill="#d4a060"/>
+  <ellipse cx="185" cy="590" rx="72" ry="38" fill="#2e2018"/>
+  <ellipse cx="185" cy="590" rx="110" ry="55" fill="none" stroke="#b88040" stroke-width="8"/>
+  <!-- Bagel sesame seeds -->
+  <g fill="#f0e0b0" opacity="0.8">
+    <ellipse cx="155" cy="548" rx="5" ry="2" transform="rotate(-30 155 548)"/>
+    <ellipse cx="200" cy="542" rx="5" ry="2" transform="rotate(15 200 542)"/>
+    <ellipse cx="240" cy="558" rx="5" ry="2" transform="rotate(-10 240 558)"/>
+    <ellipse cx="265" cy="585" rx="5" ry="2" transform="rotate(25 265 585)"/>
+    <ellipse cx="248" cy="618" rx="5" ry="2" transform="rotate(40 248 618)"/>
+    <ellipse cx="205" cy="638" rx="5" ry="2" transform="rotate(-5 205 638)"/>
+    <ellipse cx="158" cy="634" rx="5" ry="2" transform="rotate(20 158 634)"/>
+    <ellipse cx="120" cy="614" rx="5" ry="2" transform="rotate(-40 120 614)"/>
+    <ellipse cx="107" cy="582" rx="5" ry="2" transform="rotate(10 107 582)"/>
+    <ellipse cx="120" cy="555" rx="5" ry="2" transform="rotate(35 120 555)"/>
+  </g>
+  <!-- Hot dog (right foreground) -->
+  <ellipse cx="1030" cy="596" rx="130" ry="42" fill="#c8a060"/>
+  <rect x="940" y="575" width="180" height="42" fill="#c8a060" rx="16"/>
+  <!-- Hot dog sausage -->
+  <rect x="952" y="584" width="156" height="24" fill="#8a2818" rx="10"/>
+  <!-- Mustard squiggle -->
+  <path d="M955,593 Q985,585 1015,596 Q1045,607 1075,596 Q1100,585 1110,593" fill="none" stroke="#f5c518" stroke-width="4" stroke-linecap="round"/>
+  <!-- Food steam wisps -->
+  <path d="M545,160 Q540,140 548,120" fill="none" stroke="white" stroke-width="3" opacity="0.4" stroke-linecap="round"/>
+  <path d="M600,150 Q596,128 604,108" fill="none" stroke="white" stroke-width="3" opacity="0.3" stroke-linecap="round"/>
+  <path d="M655,160 Q651,140 658,120" fill="none" stroke="white" stroke-width="3" opacity="0.35" stroke-linecap="round"/>
+  <!-- Warm overhead light glow -->
+  <ellipse cx="600" cy="350" rx="300" ry="200" fill="#ff8844" opacity="0.08"/>
+</svg>

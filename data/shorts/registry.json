@@ -1,0 +1,187 @@
+{
+  "version": "1.0",
+  "description": "Registry of ViajeNYC pages that may receive YouTube Shorts feeds. Each entry maps a page to a placeholder JSON feed file. Feeds are populated separately — no scraping, API calls, or automation should be built from this file.",
+  "items": [
+    {
+      "page_url": "/guia/primera-vez-en-nueva-york/",
+      "topic": "primera-vez-nyc",
+      "title": "Primera vez en Nueva York",
+      "suggested_search_queries": [
+        "primera vez en nueva york shorts",
+        "consejos viaje nueva york por primera vez",
+        "tips nueva york principiantes",
+        "que hacer primera vez nyc"
+      ],
+      "target_json": "/data/shorts/primera-vez-nyc.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/itinerarios/nueva-york-en-3-dias/",
+      "topic": "itinerario-3-dias",
+      "title": "Nueva York en 3 días",
+      "suggested_search_queries": [
+        "nueva york en 3 dias itinerario shorts",
+        "3 dias en nueva york que ver",
+        "nyc 3 days travel shorts"
+      ],
+      "target_json": "/data/shorts/itinerario-3-dias.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/itinerarios/nueva-york-en-5-dias/",
+      "topic": "itinerario-5-dias",
+      "title": "Nueva York en 5 días",
+      "suggested_search_queries": [
+        "nueva york en 5 dias itinerario shorts",
+        "5 dias en nueva york que hacer",
+        "nyc 5 days travel guide shorts"
+      ],
+      "target_json": "/data/shorts/itinerario-5-dias.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/atracciones/central-park/",
+      "topic": "central-park",
+      "title": "Central Park",
+      "suggested_search_queries": [
+        "central park nueva york shorts",
+        "central park nyc tips español",
+        "que ver en central park shorts"
+      ],
+      "target_json": "/data/shorts/central-park.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/atracciones/times-square/",
+      "topic": "times-square",
+      "title": "Times Square",
+      "suggested_search_queries": [
+        "times square nueva york shorts",
+        "times square nyc de noche shorts",
+        "que hacer en times square"
+      ],
+      "target_json": "/data/shorts/times-square.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/atracciones/estatua-de-la-libertad/",
+      "topic": "estatua-libertad",
+      "title": "Estatua de la Libertad",
+      "suggested_search_queries": [
+        "estatua de la libertad ferry shorts",
+        "como llegar estatua libertad nueva york",
+        "statue of liberty trip tips español"
+      ],
+      "target_json": "/data/shorts/estatua-libertad.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/atracciones/puente-de-brooklyn/",
+      "topic": "puente-brooklyn",
+      "title": "Puente de Brooklyn",
+      "suggested_search_queries": [
+        "puente de brooklyn caminar shorts",
+        "brooklyn bridge walk nyc tips",
+        "cruzar puente brooklyn nueva york"
+      ],
+      "target_json": "/data/shorts/puente-brooklyn.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/experiencias/broadway-en-nueva-york/",
+      "topic": "broadway-nyc",
+      "title": "Broadway en Nueva York",
+      "suggested_search_queries": [
+        "broadway nueva york entradas shorts",
+        "como conseguir entradas broadway baratas",
+        "broadway nyc experience español"
+      ],
+      "target_json": "/data/shorts/broadway-nyc.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/experiencias/mejores-miradores-nueva-york/",
+      "topic": "miradores-nyc",
+      "title": "Mejores miradores de Nueva York",
+      "suggested_search_queries": [
+        "mejores miradores nueva york shorts",
+        "vistas nueva york top of the rock edge",
+        "miradores nyc cual vale la pena"
+      ],
+      "target_json": "/data/shorts/miradores-nyc.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/temporadas/navidad-en-nueva-york/",
+      "topic": "navidad-nyc",
+      "title": "Navidad en Nueva York",
+      "suggested_search_queries": [
+        "navidad nueva york shorts",
+        "nueva york en diciembre que hacer",
+        "christmas nyc decoraciones shorts"
+      ],
+      "target_json": "/data/shorts/navidad-nyc.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/guias/como-usar-el-metro-de-nueva-york/",
+      "topic": "metro-nyc",
+      "title": "El metro de Nueva York",
+      "suggested_search_queries": [
+        "como usar metro nueva york shorts",
+        "subway nyc guia español",
+        "metro nueva york OMNY tips"
+      ],
+      "target_json": "/data/shorts/metro-nyc.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/comida/comer-barato-en-nueva-york/",
+      "topic": "comer-barato",
+      "title": "Comer barato en Nueva York",
+      "suggested_search_queries": [
+        "comer barato nueva york shorts",
+        "comida economica nyc tips",
+        "mejor street food nueva york"
+      ],
+      "target_json": "/data/shorts/comer-barato.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/viajes/nueva-york-en-pareja/",
+      "topic": "nyc-pareja",
+      "title": "Nueva York en pareja",
+      "suggested_search_queries": [
+        "nueva york romantica pareja shorts",
+        "que hacer en nueva york en pareja",
+        "viaje romantico nueva york tips"
+      ],
+      "target_json": "/data/shorts/nyc-pareja.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/viajes/nueva-york-con-ninos/",
+      "topic": "nyc-ninos",
+      "title": "Nueva York con niños",
+      "suggested_search_queries": [
+        "nueva york con ninos shorts",
+        "que hacer en nueva york con familia",
+        "nyc kids activities español"
+      ],
+      "target_json": "/data/shorts/nyc-ninos.json",
+      "max_items": 30
+    },
+    {
+      "page_url": "/temporadas/verano-en-nueva-york/",
+      "topic": "verano-nyc",
+      "title": "Verano en Nueva York",
+      "suggested_search_queries": [
+        "nueva york en verano que hacer shorts",
+        "summer nyc tips español",
+        "nueva york julio agosto actividades"
+      ],
+      "target_json": "/data/shorts/verano-nyc.json",
+      "max_items": 30
+    }
+  ]
+}

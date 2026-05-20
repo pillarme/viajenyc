@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-05-11T13:12:00.916164",
+  "topics_processed": [
+    "primera-vez-nyc",
+    "itinerario-3-dias",
+    "itinerario-5-dias",
+    "central-park",
+    "times-square",
+    "estatua-libertad",
+    "puente-brooklyn",
+    "broadway-nyc",
+    "miradores-nyc",
+    "navidad-nyc",
+    "metro-nyc",
+    "comer-barato",
+    "nyc-pareja",
+    "nyc-ninos",
+    "verano-nyc"
+  ],
+  "candidates_found": 2469,
+  "items_written": 450,
+  "failed_queries": [],
+  "total_searches": 46
+}
