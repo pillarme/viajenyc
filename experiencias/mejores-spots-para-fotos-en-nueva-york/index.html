@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Los mejores spots para fotos en Nueva York — 15 lugares imprescindibles | ViajeNYC</title>
+  <meta name="description" content="Los 15 mejores lugares para hacer fotos en Nueva York: DUMBO, Bow Bridge, miradores, el Flatiron y spots secretos que los turistas no conocen. Con horarios y consejos de luz.">
+  <link rel="canonical" href="https://viajenyc.com/experiencias/mejores-spots-para-fotos-en-nueva-york/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Los mejores spots para fotos en Nueva York — 15 lugares imprescindibles">
+  <meta property="og:description" content="15 spots fotográficos en NYC con consejos de luz, horarios y cómo llegar — desde los clásicos hasta los secretos de los locales.">
+  <meta property="og:url" content="https://viajenyc.com/experiencias/mejores-spots-para-fotos-en-nueva-york/">
+  <meta property="og:image" content="https://viajenyc.com/assets/img/og-default.jpg">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="ViajeNYC">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Los mejores spots para fotos en Nueva York — 15 lugares imprescindibles">
+  <meta name="twitter:description" content="15 spots fotográficos en NYC con consejos de luz, horarios y cómo llegar.">
+  <meta name="twitter:image" content="https://viajenyc.com/assets/img/og-default.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Los mejores spots para fotos en Nueva York","description":"Los 15 mejores lugares para fotografiar Nueva York, con consejos de luz y horarios.","url":"https://viajenyc.com/experiencias/mejores-spots-para-fotos-en-nueva-york/","inLanguage":"es","publisher":{"@type":"Organization","name":"ViajeNYC","url":"https://viajenyc.com"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://viajenyc.com/"},{"@type":"ListItem","position":2,"name":"Experiencias","item":"https://viajenyc.com/experiencias/"},{"@type":"ListItem","position":3,"name":"Mejores spots para fotos","item":"https://viajenyc.com/experiencias/mejores-spots-para-fotos-en-nueva-york/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuál es el mejor spot para fotos en Nueva York?","acceptedAnswer":{"@type":"Answer","text":"DUMBO, en Brooklyn, es el más icónico: la perspectiva desde Washington Street encuadra el Manhattan Bridge perfectamente, con el skyline de Manhattan al fondo. Es gratis y accesible en metro (línea F o A/C hasta High Street). El mejor momento es al amanecer o en la hora dorada para evitar las multitudes."}},{"@type":"Question","name":"¿A qué hora es la mejor luz para fotos en Nueva York?","acceptedAnswer":{"@type":"Answer","text":"La hora dorada (golden hour) es la mejor: los 30–60 minutos después del amanecer y antes del atardecer. En verano el sol sale sobre las 5:30 y se pone sobre las 8:15. En invierno sale sobre las 7:15 y se pone sobre las 4:30. La hora azul (blue hour), los 20–30 minutos después del atardecer, es perfecta para fotos nocturnas con luz ambiente equilibrada."}},{"@type":"Question","name":"¿Se puede entrar gratis a los miradores de Nueva York?","acceptedAnswer":{"@type":"Answer","text":"No, los principales miradores de pago de NYC son: Top of the Rock (~40 USD), One Vanderbilt/Summit (~45 USD), Edge en Hudson Yards (~38 USD) y Empire State Building (~44 USD). Sin embargo, algunos rascacielos tienen bares en la azotea de acceso libre (con consumición obligatoria), como el 230 Fifth. El mirador del puente de Brooklyn es gratis — caminar el puente cuesta cero."}},{"@type":"Question","name":"¿Cuáles son los mejores spots fotográficos gratuitos de Nueva York?","acceptedAnswer":{"@type":"Answer","text":"Los mejores spots gratuitos son: DUMBO (bajo el arco del Manhattan Bridge), Bow Bridge en Central Park, la High Line, el interior del Oculus en el World Trade Center, el Brooklyn Bridge Park y el Gapstow Bridge en Central Park. El tranvía de Roosevelt Island cuesta lo mismo que el metro (~2,90 USD) y ofrece vistas aéreas del East River."}}]}]}</script>
+  <style>
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: var(--sp-6);
+      margin: var(--sp-8) 0;
+    }
+    .photo-spot {
+      background: var(--white);
+      border-radius: var(--r-lg);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+      border: 1px solid var(--cream-dark);
+      transition: box-shadow var(--transition-md), transform var(--transition-md);
+    }
+    .photo-spot:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+    .photo-spot__header {
+      background: var(--navy);
+      padding: var(--sp-4) var(--sp-5);
+      display: flex;
+      align-items: center;
+      gap: var(--sp-3);
+    }
+    .photo-spot__number {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      font-weight: 700;
+      color: var(--yellow);
+      line-height: 1;
+      min-width: 2rem;
+    }
+    .photo-spot__name {
+      font-weight: 600;
+      color: var(--white);
+      font-size: var(--text-base);
+      line-height: 1.3;
+    }
+    .photo-spot__body {
+      padding: var(--sp-5);
+    }
+    .photo-spot__desc {
+      font-size: var(--text-sm);
+      color: var(--gray-dark);
+      line-height: 1.6;
+      margin-bottom: var(--sp-4);
+    }
+    .photo-spot__meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--sp-2);
+    }
+    .spot-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--sp-1);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      padding: var(--sp-1) var(--sp-3);
+      border-radius: var(--r-full);
+      line-height: 1.4;
+    }
+    .spot-tag--free   { background: #dcfce7; color: #166534; }
+    .spot-tag--paid   { background: #fef9c3; color: #713f12; }
+    .spot-tag--golden { background: #fef3c7; color: #92400e; }
+    .spot-tag--blue   { background: #dbeafe; color: #1e40af; }
+    .spot-tag--night  { background: #ede9fe; color: #4c1d95; }
+    .spot-tag--anytime{ background: var(--cream-dark); color: var(--gray-dark); }
+
+    .photo-tips {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+      border-radius: var(--r-xl);
+      padding: var(--sp-8) var(--sp-10);
+      margin: var(--sp-10) 0;
+      color: var(--white);
+    }
+    .photo-tips__title {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      font-weight: 700;
+      color: var(--yellow);
+      margin-bottom: var(--sp-6);
+    }
+    .photo-tips__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: var(--sp-6);
+    }
+    .photo-tip {
+      display: flex;
+      gap: var(--sp-3);
+    }
+    .photo-tip__icon {
+      font-size: var(--text-2xl);
+      flex-shrink: 0;
+      line-height: 1;
+    }
+    .photo-tip__body h4 {
+      font-size: var(--text-sm);
+      font-weight: 700;
+      color: var(--yellow);
+      margin-bottom: var(--sp-1);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .photo-tip__body p {
+      font-size: var(--text-sm);
+      color: rgba(255,255,255,0.8);
+      line-height: 1.5;
+    }
+
+    .category-label {
+      display: flex;
+      align-items: center;
+      gap: var(--sp-3);
+      margin: var(--sp-10) 0 var(--sp-6);
+    }
+    .category-label__text {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      font-weight: 700;
+      color: var(--navy);
+    }
+    .category-label__line {
+      flex: 1;
+      height: 2px;
+      background: var(--cream-dark);
+    }
+
+    @media (max-width: 640px) {
+      .photo-tips { padding: var(--sp-6); }
+      .photo-tips__grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<nav class="site-nav" id="site-nav"><div class="container"><div class="site-nav__inner">
+  <a href="/" class="site-nav__logo">Viaje<span>NYC</span></a>
+  <button class="site-nav__toggle" id="nav-toggle" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+  <div class="site-nav__menu" id="nav-menu"><ul class="site-nav__list">
+    <li><a href="/" class="site-nav__link">Inicio</a></li><li><a href="/guia/primera-vez-en-nueva-york/" class="site-nav__link">Primera vez</a></li>
+    <li><button class="site-nav__toggle-sub" aria-expanded="false">Itinerarios <span>▾</span></button><ul class="site-nav__sub"><li><a href="/itinerarios/nueva-york-en-3-dias/">3 días</a></li><li><a href="/itinerarios/nueva-york-en-5-dias/">5 días</a></li><li><a href="/itinerarios/nueva-york-en-7-dias/">7 días</a></li></ul></li>
+    <li><button class="site-nav__toggle-sub" aria-expanded="false">Barrios <span>▾</span></button><ul class="site-nav__sub"><li><a href="/barrios/mejores-barrios-nueva-york/">Mejores barrios</a></li><li><a href="/barrios/manhattan/">Manhattan</a></li><li><a href="/barrios/brooklyn/">Brooklyn</a></li></ul></li>
+    <li><button class="site-nav__toggle-sub" aria-expanded="false">Atracciones <span>▾</span></button><ul class="site-nav__sub"><li><a href="/atracciones/central-park/">Central Park</a></li><li><a href="/atracciones/times-square/">Times Square</a></li><li><a href="/atracciones/estatua-de-la-libertad/">Estatua de la Libertad</a></li><li><a href="/atracciones/puente-de-brooklyn/">Puente de Brooklyn</a></li><li><a href="/atracciones/museos-en-nueva-york/">Museos</a></li></ul></li>
+    <li><button class="site-nav__toggle-sub" aria-expanded="false">Consejos <span>▾</span></button><ul class="site-nav__sub"><li><a href="/guias/donde-alojarse-en-nueva-york/">Dónde alojarse</a></li><li><a href="/guias/como-usar-el-metro-de-nueva-york/">El metro</a></li><li><a href="/guias/nueva-york-con-poco-presupuesto/">Presupuesto</a></li></ul></li>
+    <li><button class="site-nav__toggle-sub" aria-expanded="false">Temporadas <span>▾</span></button><ul class="site-nav__sub"><li><a href="/temporadas/navidad-en-nueva-york/">Navidad</a></li><li><a href="/temporadas/verano-en-nueva-york/">Verano</a></li><li><a href="/temporadas/primavera-en-nueva-york/">Primavera</a></li><li><a href="/temporadas/otono-en-nueva-york/">Otoño</a></li></ul></li>
+  </ul></div>
+</div></div></nav>
+
+<main>
+  <section class="page-hero page-hero--photo" style="background-image: url('/assets/img/editorial/nyc-skyline.svg')">
+    <div class="container"><div class="page-hero__content">
+      <nav class="breadcrumb"><a href="/">Inicio</a><span class="sep">›</span><a href="/experiencias/">Experiencias</a><span class="sep">›</span><span class="current">Spots para fotos</span></nav>
+      <span class="page-hero__category">Fotografía</span>
+      <h1 class="page-hero__title">Los mejores spots para fotos en Nueva York</h1>
+      <p class="page-hero__lead">15 lugares — desde los iconos que no puedes perderte hasta los secretos que los turistas nunca encuentran. Con horarios, consejos de luz y cómo llegar.</p>
+    </div></div>
+  </section>
+
+  <section class="page-content section">
+    <div class="container">
+      <div class="two-col-layout">
+        <div class="prose">
+
+          <div class="stats-bar">
+            <div class="stat-item"><span class="stat-item__icon">📸</span><span class="stat-item__value">15</span><span class="stat-item__label">Spots seleccionados</span></div>
+            <div class="stat-item"><span class="stat-item__icon">🆓</span><span class="stat-item__value">10</span><span class="stat-item__label">Spots gratuitos</span></div>
+            <div class="stat-item"><span class="stat-item__icon">🌅</span><span class="stat-item__value">Golden hour</span><span class="stat-item__label">Mejor momento</span></div>
+            <div class="stat-item"><span class="stat-item__icon">📍</span><span class="stat-item__value">4</span><span class="stat-item__label">Barrios cubiertos</span></div>
+          </div>
+
+          <div class="quick-answer">
+            <div class="quick-answer__label">Respuesta rápida</div>
+            <div class="quick-answer__text"><p>El spot más icónico es DUMBO: Washington Street encuadra el Manhattan Bridge con el skyline detrás — gratis, accesible en metro, espectacular al amanecer. Para vistas desde arriba, el Top of the Rock tiene la mejor perspectiva del Empire State Building. En Central Park, el Bow Bridge al atardecer es la foto de parque más memorable de la ciudad.</p></div>
+          </div>
+
+          <div class="category-label">
+            <span class="category-label__text">Iconos de ciudad</span>
+            <span class="category-label__line"></span>
+          </div>
+
+          <div class="photo-grid">
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">01</span>
+                <span class="photo-spot__name">DUMBO — Arco del Manhattan Bridge</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">Washington Street en la intersección con Front Street. El arco del Manhattan Bridge enmarca el skyline de Midtown en perspectiva perfecta. Una de las fotos más reconocibles de Nueva York — y completamente gratuita. Llega muy temprano: a las 9am ya hay cola de fotógrafos. En invierno la luz baja crea sombras dramáticas sobre el pavimento.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--free">✓ Gratis</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Amanecer</span>
+                  <span class="spot-tag spot-tag--blue">🌆 Blue hour</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">02</span>
+                <span class="photo-spot__name">Puente de Brooklyn — Paseo peatonal</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">Cruza el puente a pie y para en el centro: tienes las torres góticas de granito delante, el Lower Manhattan detrás y el East River abajo. Empieza desde el lado de Manhattan (City Hall) para tener el sol a la espalda por la mañana. El paseo completo son unos 30 minutos — vale cada paso.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--free">✓ Gratis</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Mañana</span>
+                  <span class="spot-tag spot-tag--night">🌙 Noche</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">03</span>
+                <span class="photo-spot__name">Flatiron Building — Broadway y 23rd St</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">El edificio triangular de 1902 es uno de los más fotografiados del mundo. El ángulo clásico es desde Broadway mirando hacia el norte. La magia real ocurre con pavimento mojado tras la lluvia: los reflejos en el asfalto multiplican la fotografía. El pequeño parque de Madison Square a su espalda es también encuadre perfecto.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--free">✓ Gratis</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Tarde</span>
+                  <span class="spot-tag spot-tag--anytime">Lluvia = magia</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">04</span>
+                <span class="photo-spot__name">Brooklyn Bridge Park — Bajo el puente</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">Desde el Pier 1 y el Main Street Park en Brooklyn tienes la trifecta: el Puente de Brooklyn en primer plano, el skyline de Lower Manhattan al fondo y el East River entre medias. Es el punto de visión más cinematográfico de la ciudad. Al atardecer los edificios se encienden en naranja y los puentes recortan el cielo.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--free">✓ Gratis</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Atardecer</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="category-label">
+            <span class="category-label__text">Miradores y alturas</span>
+            <span class="category-label__line"></span>
+          </div>
+
+          <div class="photo-grid">
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">05</span>
+                <span class="photo-spot__name">One Vanderbilt / Summit</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">El mirador más espectacular de Nueva York hoy mismo. A 427 metros, con paredes, suelo y ascensores de cristal que crean reflejos infinitos del skyline. Las fotos aquí no se parecen a nada — son abstractas, surrealistas, únicas. Compra en el turno de apertura (9am) para evitar aglomeraciones y conseguir la mejor luz matinal sobre el Empire State.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--paid">Pago ~45 USD</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Mañana</span>
+                  <span class="spot-tag spot-tag--night">🌙 Noche</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">06</span>
+                <span class="photo-spot__name">Top of the Rock</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">El mirador del 30 Rockefeller Plaza tiene la mejor vista del Empire State Building desde arriba — algo que el propio Empire State no puede ofrecerte. Las tres terrazas al aire libre permiten fotograf iar sin cristal. El ángulo norte hacia Central Park al atardecer es especialmente dramático. Reserva el último turno del día para la transición de luz a noche.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--paid">Pago ~40 USD</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Atardecer</span>
+                  <span class="spot-tag spot-tag--night">🌙 Noche</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">07</span>
+                <span class="photo-spot__name">Edge — Hudson Yards</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">A 335 metros sobre el suelo, con un voladizo de cristal que sobresale del edificio — literalmente estás encima del vacío con el Hudson River debajo. Las fotos mirando hacia abajo son de las más atrevidas que puedes hacer en NYC. Incluye también vistas espectaculares del Midtown West y New Jersey al otro lado del río.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--paid">Pago ~38 USD</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Tarde</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">08</span>
+                <span class="photo-spot__name">Tranvía de Roosevelt Island</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">El único teleférico urbano de Nueva York cruza el East River a 76 metros de altura entre Midtown Manhattan y Roosevelt Island. El trayecto dura 4 minutos y cuesta lo mismo que el metro (~2,90 USD). Las vistas del puente Queensboro, los rascacielos de Midtown y el río desde el aire son absolutamente únicas — y prácticamente sin turistas.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--free">~3 USD (metro)</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Atardecer</span>
+                  <span class="spot-tag spot-tag--blue">🌆 Blue hour</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="category-label">
+            <span class="category-label__text">Naturaleza y parques</span>
+            <span class="category-label__line"></span>
+          </div>
+
+          <div class="photo-grid">
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">09</span>
+                <span class="photo-spot__name">Bow Bridge — Central Park</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">El puente de hierro fundido de 1862 sobre el lago de Central Park es la fotografía más romántica de Nueva York. El reflejo del puente en el agua con el skyline de Midtown al fondo crea una composición casi irreal. En otoño los árboles alrededor se vuelven naranja y dorado. Llega temprano — la niebla matinal sobre el lago es una rareza que merece madrugar.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--free">✓ Gratis</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Amanecer</span>
+                  <span class="spot-tag spot-tag--anytime">Otoño = imprescindible</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">10</span>
+                <span class="photo-spot__name">Gapstow Bridge — Central Park</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">El pequeño puente de piedra en el extremo sur del parque, junto al estanque, enmarca los rascacielos de Midtown — entre ellos el Plaza Hotel y el Essex House — de forma perfecta. En invierno, si hay nieve, es la foto más navideña de Nueva York. Se llega en 5 minutos desde la entrada de la calle 59.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--free">✓ Gratis</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Mañana</span>
+                  <span class="spot-tag spot-tag--anytime">Invierno con nieve</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">11</span>
+                <span class="photo-spot__name">High Line</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">El parque elevado sobre la antigua vía de tren del West Side ofrece perspectivas únicas: las calles de Chelsea cortadas en perspectiva desde arriba, el Hudson River entre los edificios, y las instalaciones de arte que cambian según la temporada. La sección norte, cerca de Hudson Yards, permite fotografiar el Vessel y los rascacielos de vidrio desde ángulos que no existen en ningún otro lugar.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--free">✓ Gratis</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Tarde</span>
+                  <span class="spot-tag spot-tag--anytime">Todo el año</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="category-label">
+            <span class="category-label__text">Arquitectura e interiores</span>
+            <span class="category-label__line"></span>
+          </div>
+
+          <div class="photo-grid">
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">12</span>
+                <span class="photo-spot__name">The Oculus — World Trade Center</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">El hub de transporte diseñado por Santiago Calatrava es una de las obras arquitectónicas más fotografiadas de Nueva York — y completamente gratis. Sus costillas blancas de acero se abren hacia un óculo central que deja caer luz solar cada 11 de septiembre justo sobre el Memorial. El interior es una catedral minimalista. Mejor en días soleados con la luz entrando por el techo.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--free">✓ Gratis</span>
+                  <span class="spot-tag spot-tag--anytime">Días soleados</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">13</span>
+                <span class="photo-spot__name">Grand Central Terminal</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">La sala principal de la Grand Central Terminal tiene uno de los interiores más fotografiados del mundo: el techo verde con las constelaciones doradas, las ventanas colosales con rayos de luz oblicua por la mañana, y el reloj dorado sobre el mostrador de información. La mejor luz entra por las ventanas del lado sur entre las 9 y las 11am. La entrada es gratuita.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--free">✓ Gratis</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Mañana 9–11am</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">14</span>
+                <span class="photo-spot__name">Vessel — Hudson Yards</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">La escultura pública de Thomas Heatherwick — 154 tramos de escaleras entrelazadas en forma de colmena — es un objeto fotográfico fascinante tanto de lejos como de cerca. Los patrones geométricos repetidos crean composiciones abstractas únicas. Se puede fotografiar desde el exterior (gratis) en cualquier momento. La High Line adyacente añade perspectivas aéreas adicionales.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--free">✓ Gratis (exterior)</span>
+                  <span class="spot-tag spot-tag--anytime">Todo el año</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-spot">
+              <div class="photo-spot__header">
+                <span class="photo-spot__number">15</span>
+                <span class="photo-spot__name">Little Island — Pier 55</span>
+              </div>
+              <div class="photo-spot__body">
+                <p class="photo-spot__desc">El parque flotante sobre el Hudson River, construido sobre 132 pilares en forma de tulipán, es el spot más nuevo e inesperado de esta lista. Sus rampas curvas y jardines sobre el agua ofrecen ángulos imposibles del skyline de Midtown Manhattan desde el Hudson. Desde la plataforma elevada, la foto del río con los rascacielos al fondo es completamente distinta a cualquier otra de la ciudad.</p>
+                <div class="photo-spot__meta">
+                  <span class="spot-tag spot-tag--free">✓ Gratis</span>
+                  <span class="spot-tag spot-tag--golden">🌅 Tarde</span>
+                  <span class="spot-tag spot-tag--anytime">Primavera–otoño</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="photo-tips">
+            <div class="photo-tips__title">Consejos para mejores fotos en NYC</div>
+            <div class="photo-tips__grid">
+              <div class="photo-tip">
+                <span class="photo-tip__icon">🌅</span>
+                <div class="photo-tip__body">
+                  <h4>Hora dorada</h4>
+                  <p>Los 40 minutos tras el amanecer y antes del atardecer. Luz cálida, sombras largas, colores vivos. En verano el sol sale ~5:30am y se pone ~8:15pm.</p>
+                </div>
+              </div>
+              <div class="photo-tip">
+                <span class="photo-tip__icon">🌆</span>
+                <div class="photo-tip__body">
+                  <h4>Blue hour</h4>
+                  <p>Los 20–30 minutos después del atardecer. El cielo se vuelve azul profundo y las luces de los edificios equilibran la exposición — la mejor ventana para fotos nocturnas.</p>
+                </div>
+              </div>
+              <div class="photo-tip">
+                <span class="photo-tip__icon">🌧</span>
+                <div class="photo-tip__body">
+                  <h4>Días de lluvia</h4>
+                  <p>El asfalto mojado de Manhattan refleja las luces de la ciudad como un espejo. El Flatiron Building y Times Square son mágicos tras la lluvia — lleva una bolsa impermeable para la cámara.</p>
+                </div>
+              </div>
+              <div class="photo-tip">
+                <span class="photo-tip__icon">⏰</span>
+                <div class="photo-tip__body">
+                  <h4>Madrugar</h4>
+                  <p>Entre semana antes de las 7am, DUMBO, el Puente de Brooklyn y Times Square están casi vacíos. Es la única forma de conseguir fotos limpias en los spots más populares.</p>
+                </div>
+              </div>
+              <div class="photo-tip">
+                <span class="photo-tip__icon">📱</span>
+                <div class="photo-tip__body">
+                  <h4>Modo retrato y RAW</h4>
+                  <p>Si fotografías con móvil, activa RAW (en los ajustes de cámara) para máxima flexibilidad en la edición. Los últimos iPhones y Pixels capturan detalles impresionantes en cualquier luz.</p>
+                </div>
+              </div>
+              <div class="photo-tip">
+                <span class="photo-tip__icon">🗺</span>
+                <div class="photo-tip__body">
+                  <h4>Planifica con PhotoPills</h4>
+                  <p>La app PhotoPills o The Photographer's Ephemeris te permite ver exactamente dónde sale y se pone el sol en cualquier spot de NYC. Imprescindible para planificar golden hour en DUMBO o Bow Bridge.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="worth-skip">
+            <div class="worth-skip__card worth-skip__card--worth">
+              <div class="worth-skip__title">✓ Vale la pena madrugar</div>
+              <ul class="worth-skip__list">
+                <li>DUMBO antes de las 7am — sin colas, sin turistas</li>
+                <li>Bow Bridge con niebla matinal sobre el lago</li>
+                <li>Grand Central con los rayos de luz de la mañana</li>
+                <li>El Puente de Brooklyn al amanecer con el sol tras Manhattan</li>
+                <li>Times Square de noche con lluvia en el asfalto</li>
+              </ul>
+            </div>
+            <div class="worth-skip__card worth-skip__card--skip">
+              <div class="worth-skip__title">✗ Evita estos errores</div>
+              <ul class="worth-skip__list">
+                <li>DUMBO un sábado a las 11am — hay literalmente cola de fotógrafos</li>
+                <li>Miradores de pago en días nublados (no hay reembolso)</li>
+                <li>Times Square de día — la luz plana mata el ambiente</li>
+                <li>Fotografiar desde los tours en bus (las ventanas distorsionan)</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="sidebar">
+          <div class="sidebar-card sticky-sidebar">
+            <h3 class="sidebar-card__title">Índice de spots</h3>
+            <ul class="sidebar-nav">
+              <li><a href="#" onclick="return false;">01 — DUMBO / Manhattan Bridge</a></li>
+              <li><a href="#" onclick="return false;">02 — Puente de Brooklyn</a></li>
+              <li><a href="#" onclick="return false;">03 — Flatiron Building</a></li>
+              <li><a href="#" onclick="return false;">04 — Brooklyn Bridge Park</a></li>
+              <li><a href="#" onclick="return false;">05 — One Vanderbilt / Summit</a></li>
+              <li><a href="#" onclick="return false;">06 — Top of the Rock</a></li>
+              <li><a href="#" onclick="return false;">07 — Edge, Hudson Yards</a></li>
+              <li><a href="#" onclick="return false;">08 — Tranvía Roosevelt Island</a></li>
+              <li><a href="#" onclick="return false;">09 — Bow Bridge</a></li>
+              <li><a href="#" onclick="return false;">10 — Gapstow Bridge</a></li>
+              <li><a href="#" onclick="return false;">11 — High Line</a></li>
+              <li><a href="#" onclick="return false;">12 — The Oculus</a></li>
+              <li><a href="#" onclick="return false;">13 — Grand Central</a></li>
+              <li><a href="#" onclick="return false;">14 — Vessel</a></li>
+              <li><a href="#" onclick="return false;">15 — Little Island</a></li>
+            </ul>
+            <h3 class="sidebar-card__title" style="margin-top:1.5rem">Miradores de pago</h3>
+            <ul class="sidebar-nav">
+              <li><a href="/experiencias/mejores-miradores-nueva-york/">Guía completa de miradores</a></li>
+            </ul>
+            <h3 class="sidebar-card__title" style="margin-top:1.5rem">Relacionado</h3>
+            <ul class="sidebar-nav">
+              <li><a href="/atracciones/central-park/">Central Park</a></li>
+              <li><a href="/atracciones/puente-de-brooklyn/">Puente de Brooklyn</a></li>
+              <li><a href="/barrios/brooklyn/">Brooklyn</a></li>
+              <li><a href="/guias/que-hacer-gratis-en-nueva-york/">Gratis en NYC</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-header"><span class="label">Preguntas frecuentes</span><h2>Fotografía en Nueva York</h2></div>
+      <div class="faq-list">
+        <div class="faq-item"><button class="faq-question" aria-expanded="false">¿Cuál es el mejor spot para fotos en Nueva York? <span class="faq-icon">+</span></button><div class="faq-answer"><p>DUMBO, en Brooklyn, es el más icónico: la perspectiva desde Washington Street encuadra el Manhattan Bridge perfectamente, con el skyline de Manhattan al fondo. Es gratis, accesible en metro (línea F o A/C hasta High Street) y funciona en cualquier hora del día — aunque al amanecer o en la hora dorada es donde realmente brilla.</p></div></div>
+        <div class="faq-item"><button class="faq-question" aria-expanded="false">¿A qué hora es la mejor luz para fotos en Nueva York? <span class="faq-icon">+</span></button><div class="faq-answer"><p>La hora dorada (golden hour) es la mejor: los 30–60 minutos después del amanecer y antes del atardecer. En verano el sol sale sobre las 5:30 y se pone sobre las 8:15. En invierno sale sobre las 7:15 y se pone sobre las 4:30. La hora azul (blue hour), los 20–30 minutos después del atardecer, es perfecta para fotos nocturnas con luz ambiente equilibrada — los edificios encendidos y el cielo todavía azul.</p></div></div>
+        <div class="faq-item"><button class="faq-question" aria-expanded="false">¿Se puede entrar gratis a los miradores de Nueva York? <span class="faq-icon">+</span></button><div class="faq-answer"><p>No, los principales miradores de pago de NYC son: Top of the Rock (~40 USD), One Vanderbilt/Summit (~45 USD), Edge en Hudson Yards (~38 USD) y Empire State Building (~44 USD). Sin embargo, algunos rascacielos tienen bares en la azotea de acceso libre con consumición mínima, como el 230 Fifth. El Puente de Brooklyn es la mejor alternativa gratuita para vistas elevadas del skyline.</p></div></div>
+        <div class="faq-item"><button class="faq-question" aria-expanded="false">¿Cuáles son los mejores spots fotográficos gratuitos de Nueva York? <span class="faq-icon">+</span></button><div class="faq-answer"><p>Los mejores spots gratuitos: DUMBO (bajo el arco del Manhattan Bridge), Bow Bridge en Central Park, la High Line, el interior del Oculus en el World Trade Center, el Brooklyn Bridge Park, el Gapstow Bridge y el Flatiron Building. El tranvía de Roosevelt Island cuesta lo mismo que el metro (~2,90 USD) y ofrece vistas aéreas únicas del East River.</p></div></div>
+        <div class="faq-item"><button class="faq-question" aria-expanded="false">¿Cuándo es mejor visitar DUMBO para hacer fotos? <span class="faq-icon">+</span></button><div class="faq-answer"><p>Entre semana muy temprano (antes de las 7am) o al atardecer en días laborables. Los fines de semana a partir de las 10am hay literalmente cola de fotógrafos esperando su turno en la perspectiva de Washington Street. En invierno la luz baja crea sombras muy dramáticas incluso al mediodía. Cualquier día con lluvia reciente es perfecto — el pavimento mojado duplica el reflejo del puente.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="related-guides">
+    <div class="container">
+      <div class="section-header"><span class="label">Continúa explorando</span><h2>Más experiencias en Nueva York</h2></div>
+      <div class="related-guides__grid">
+        <a href="/experiencias/mejores-miradores-nueva-york/" class="related-card"><div class="related-card__icon">🏙️</div><div class="related-card__body"><div class="related-card__category">Vistas</div><div class="related-card__title">Mejores miradores</div><div class="related-card__excerpt">Guía completa de los miradores de pago y gratuitos de NYC.</div></div></a>
+        <a href="/atracciones/central-park/" class="related-card"><div class="related-card__icon">🌳</div><div class="related-card__body"><div class="related-card__category">Icono</div><div class="related-card__title">Central Park</div><div class="related-card__excerpt">El Bow Bridge y el Gapstow Bridge son dos de los mejores spots del parque.</div></div></a>
+        <a href="/atracciones/puente-de-brooklyn/" class="related-card"><div class="related-card__icon">🌉</div><div class="related-card__body"><div class="related-card__category">Icono</div><div class="related-card__title">Puente de Brooklyn</div><div class="related-card__excerpt">Cruzarlo a pie es obligatorio — y la mejor oportunidad fotográfica gratuita.</div></div></a>
+        <a href="/barrios/brooklyn/" class="related-card"><div class="related-card__icon">🏘️</div><div class="related-card__body"><div class="related-card__category">Barrio</div><div class="related-card__title">Brooklyn</div><div class="related-card__excerpt">DUMBO, el Brooklyn Bridge Park y Williamsburg están todos aquí.</div></div></a>
+        <a href="/guias/que-hacer-gratis-en-nueva-york/" class="related-card"><div class="related-card__icon">🆓</div><div class="related-card__body"><div class="related-card__category">Gratis</div><div class="related-card__title">Gratis en NYC</div><div class="related-card__excerpt">10 de los 15 mejores spots fotográficos de NYC son completamente gratuitos.</div></div></a>
+        <a href="/itinerarios/nueva-york-en-3-dias/" class="related-card"><div class="related-card__icon">🗓️</div><div class="related-card__body"><div class="related-card__category">Planifica</div><div class="related-card__title">NYC en 3 días</div><div class="related-card__excerpt">Cómo organizar los mejores spots fotográficos en un itinerario corto.</div></div></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="container">
+  <div class="site-footer__grid">
+    <div class="site-footer__brand"><a href="/" class="site-footer__logo">Viaje<span>NYC</span></a><p class="site-footer__tagline">Guía de viaje a Nueva York en español.</p><p class="site-footer__disclaimer">Los precios, horarios y políticas de entrada pueden cambiar. Verifica siempre con las fuentes oficiales antes de viajar.</p></div>
+    <div class="site-footer__col"><h3 class="site-footer__heading">Guías esenciales</h3><ul><li><a href="/guia/primera-vez-en-nueva-york/">Primera vez en NYC</a></li><li><a href="/guias/donde-alojarse-en-nueva-york/">Dónde alojarse</a></li><li><a href="/guias/que-hacer-gratis-en-nueva-york/">Gratis en NYC</a></li></ul></div>
+    <div class="site-footer__col"><h3 class="site-footer__heading">Atracciones</h3><ul><li><a href="/atracciones/central-park/">Central Park</a></li><li><a href="/atracciones/times-square/">Times Square</a></li><li><a href="/atracciones/estatua-de-la-libertad/">Estatua de la Libertad</a></li><li><a href="/atracciones/museos-en-nueva-york/">Museos</a></li></ul></div>
+    <div class="site-footer__col"><h3 class="site-footer__heading">Itinerarios</h3><ul><li><a href="/itinerarios/nueva-york-en-3-dias/">3 días</a></li><li><a href="/itinerarios/nueva-york-en-5-dias/">5 días</a></li><li><a href="/itinerarios/nueva-york-en-7-dias/">7 días</a></li></ul></div>
+  </div>
+  <div class="site-footer__bottom"><p>&copy; 2026 ViajeNYC.com</p><nav class="site-footer__bottom-nav"><a href="/sobre-viajenyc/">Sobre ViajeNYC</a><a href="/contacto/">Contacto</a></nav></div>
+</div></footer>
+<script src="/assets/js/main.js?v=3"></script>
+</body>
+</html>
